@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@theme {
+  /* Renk Paletimiz */
+  --color-void: #050505;
+  --color-cluster: #7c3aed;
+
+  /* Font Ayarları (Next.js font değişkenlerine hook atıyoruz) */
+  --font-grotesk: var(--font-geist-sans), sans-serif;
+  --font-mono: var(--font-geist-mono), monospace;
+
+  /* Animasyonlar (İleride lazım olursa) */
+  --animate-pulse-slow: pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Varsayılan Karanlık Mod */
+@layer base {
+  body {
+    background-color: var(--color-void);
+    /* bg-void kullanmak yerine default yapıyoruz */
+    color: #e0e0e0;
+    overflow-x: hidden;
+    /* Yatay scroll engelleme */
+  }
+
+  /* Minimal Scrollbar */
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: var(--color-void);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #333;
+    border-radius: 5px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--color-cluster);
+  }
+}
