@@ -36,10 +36,10 @@ export default function Home() {
       variants={containerVariants}
       initial="hidden"
       animate="show"
-      className="min-h-screen bg-void text-[#E0E0E0] font-sans selection:bg-white selection:text-black p-8 md:p-16 flex flex-col justify-between">
+      className="min-h-screen bg-void text-[#E0E0E0] font-sans selection:bg-white selection:text-black flex flex-col justify-between">
       <motion.header
         variants={itemVariants}
-        className="flex justify-between items-center mix-blend-difference">
+        className="sticky top-0 z-10 px-8 md:px-16 md:py-12 flex justify-between items-center mix-blend-difference bg-black/5 backdrop-blur-2xl">
         <div className="flex items-center gap-4">
           <svg width="28" height="28" viewBox="0 0 24 24" fill="none" className="text-white">
             <rect x="2.5" y="2.5" width="19" height="19" stroke="currentColor" strokeWidth="1.5" />
@@ -62,7 +62,7 @@ export default function Home() {
       </motion.header>
 
       {/* 2. MAIN LIST */}
-      <main className="grow flex flex-col justify-center py-20">
+      <main className="grow flex flex-col justify-center px-8 md:px-16">
         <div className="max-w-6xl">
           {PROJECTS.map((project) => (
             <motion.a
@@ -110,7 +110,7 @@ export default function Home() {
       {/* 3. FOOTER */}
       <motion.footer
         variants={itemVariants}
-        className="flex flex-col md:flex-row justify-between items-end gap-8">
+        className="flex flex-col md:flex-row justify-between items-end gap-8 p-8 md:p-16">
         <div className="max-w-md">
           <p className="text-sm md:text-base font-sans font-light leading-relaxed text-gray-500">
             <span className="text-white block mb-2 font-medium">Manifesto</span>
