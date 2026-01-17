@@ -21,9 +21,9 @@ export const PROJECTS = [
     id: 'mindfry',
     number: '03',
     name: 'MINDFRY',
-    type: 'Cognitive DB Engine',
-    desc: 'Cognitive ephemeral graph database',
-    tags: ['RUST', 'Ephemeral', 'Consciousness'],
+    type: 'Memory with a Conscience',
+    desc: 'A Subjective Biological Memory Substrate',
+    tags: ['RUST', 'Ephemeral', 'Consciousness', 'OQL'],
     link: 'https://github.com/laphilosophia/mindfry',
   },
   {
