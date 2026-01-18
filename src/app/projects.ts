@@ -6,7 +6,7 @@ export const PROJECTS = [
     type: 'Cognitive Runtime',
     desc: 'Cognitive resilience runtime',
     tags: ['TypeScript', 'Node.js', 'Vector Ops'],
-    link: 'https://github.com/laphilosophia/atrion',
+    link: 'https://github.com/cluster-127/atrion',
   },
   {
     id: 'nabu',
@@ -15,7 +15,7 @@ export const PROJECTS = [
     type: 'Cognitive Substrate',
     desc: 'Physics engine for synthetic cognition.',
     tags: ['Typescript', 'HNSW', 'Phase Graph'],
-    link: 'https://github.com/laphilosophia/nabu',
+    link: 'https://github.com/cluster-127/nabu',
   },
   {
     id: 'mindfry',
@@ -24,7 +24,7 @@ export const PROJECTS = [
     type: 'Memory with a Conscience',
     desc: 'A Subjective Biological Memory Substrate',
     tags: ['RUST', 'Ephemeral', 'Consciousness', 'OQL'],
-    link: 'https://github.com/laphilosophia/mindfry',
+    link: 'https://github.com/cluster-127/mindfry',
   },
   {
     id: 'tracehound',
@@ -52,14 +52,5 @@ export const PROJECTS = [
     desc: 'Deterministic coordination layer',
     tags: ['Typescript', 'Forensic', 'Commercial'],
     link: 'https://tcr-tools.vercel.app/',
-  },
-  {
-    id: 'volta',
-    number: '07',
-    name: 'VOLTA',
-    type: 'Headless Platform Engine',
-    desc: 'Headless Platform Engine for LC/NC applications',
-    tags: ['Typescript', 'LC/NC', 'Engine'],
-    link: 'https://github.com/laphilosophia/volta-next',
   },
 ]
