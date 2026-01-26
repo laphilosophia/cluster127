@@ -253,12 +253,12 @@ export default function Home() {
               Github
             </a>
             <a
-              href="https://erdemarslan.hashnode.dev/"
+              href="https://erdem.work/"
               target="_blank"
               className="hover:text-white transition-colors">
               Blog
             </a>
-            <a href="mailto:erdemarslan@ymail.com" className="hover:text-white transition-colors">
+            <a href="mailto:me@erdem.work" className="hover:text-white transition-colors">
               Contact
             </a>
           </div>
